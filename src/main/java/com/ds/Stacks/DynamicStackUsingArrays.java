@@ -1,23 +1,27 @@
 package com.ds.Stacks;
 
-public class StackUsingArrays implements GenericStack<Integer> {
+import java.util.Arrays;
+
+public class DynamicStackUsingArrays implements GenericStack<Integer> {
 
     int[] stack;
     int top = -1;
     int DEFAULT_STACK_CAPACITY = 10;
 
-    public StackUsingArrays() {
+    public DynamicStackUsingArrays() {
         stack = new int[DEFAULT_STACK_CAPACITY];
     }
 
-    public StackUsingArrays(int size) {
+    public DynamicStackUsingArrays(int size) {
         stack = new int[size];
     }
 
     @Override
     public void push(Integer elem) throws Exception {
         if (isFull()) {
-            throw new Exception("Stack overflow");
+            //throw new Exception("Stack overflow");
+            System.out.println("Resizing to: " + (this.stack.length * 2));
+            this.stack = Arrays.copyOf(this.stack, (this.stack.length * 2));
         }
 
         stack[++top] = elem;
@@ -47,17 +51,9 @@ public class StackUsingArrays implements GenericStack<Integer> {
     }
 
     public void printStack() {
+        System.out.println("Stack length: " + (stack.length));
         System.out.println("Stack contents");
-        for (int i = 0; i <= top; i++)
+        for (int i = top; i >= 0; i--)
             System.out.println(stack[i]);
-    }
-
-    public void reverseStack() {
-        int temp;
-        for (int begin = 0, end = top; begin < end; begin++, end--) {
-            temp = stack[begin];
-            stack[begin] = stack[end];
-            stack[end] = temp;
-        }
     }
 }
