@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37d76171-570a-45b0-844e-36a7fecc5ff5" name="Default Changelist" comment="" />
+    <list default="true" id="37d76171-570a-45b0-844e-36a7fecc5ff5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Stacks/BalancedParanthesisCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ds/Stacks/BalancedParanthesisCheckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/DynamicStackUsingArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="705">
               <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-              <folding>
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -30,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestDynamicStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="408">
               <caret line="24" selection-start-line="19" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -42,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestArrayStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="714">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,17 +54,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/StackUsingArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
+            <state relative-caret-position="680">
               <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DSA.iml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/BalancedParanthesisCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="354">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/BalancedParanthesisCheckTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +88,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -129,6 +142,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestArrayStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ds/Stacks/DynamicStackUsingArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ds/Stacks/StackUsingArrays.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ds/Stacks/BalancedParanthesisCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ds/Stacks/BalancedParanthesisCheck.java" />
       </list>
     </option>
   </component>
@@ -139,8 +154,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="3" />
+    <option name="y" value="-1088" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -152,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,10 +179,101 @@
               <item name="DSA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="Stacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="Stacks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -178,6 +283,8 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -186,6 +293,12 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ds.Stacks" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ds.Stacks" />
     </key>
@@ -202,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDynamicStack">
+  <component name="RunManager" selected="JUnit.BalancedParanthesisCheckTest">
     <configuration name="TestDynamicStack.testDynamicStack" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <extension name="coverage">
@@ -232,15 +345,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Stacks.TestArrayStack" />
+    <configuration name="BalancedParanthesisCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.ds.Arrays.*" />
+          <option name="PATTERN" value="com.ds.Stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.ds.Stacks" />
+      <option name="MAIN_CLASS_NAME" value="com.ds.Stacks.BalancedParanthesisCheckTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -277,11 +392,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BalancedParanthesisCheckTest" />
         <item itemvalue="JUnit.TestDynamicStack" />
         <item itemvalue="JUnit.TestArrayStack" />
         <item itemvalue="Android JUnit.TestDynamicStack.testDynamicStack" />
         <item itemvalue="Application.SearchElemSortedRotated" />
-        <item itemvalue="Application.TestArrayStack" />
       </list>
     </recent_temporary>
   </component>
@@ -299,12 +414,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDynamicStack_testDynamicStack - 2019.07.09 at 15h 31m 44s.xml">
-      <configuration name="TestDynamicStack.testDynamicStack" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="TestDynamicStack_testDynamicStack - 2019.07.09 at 15h 31m 59s.xml">
-      <configuration name="TestDynamicStack.testDynamicStack" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="TestDynamicStack_testDynamicStack - 2019.07.09 at 15h 36m 33s.xml">
       <configuration name="TestDynamicStack.testDynamicStack" configurationId="AndroidJUnit" />
     </history-entry>
@@ -329,22 +438,27 @@
     <history-entry file="TestDynamicStack - 2019.07.09 at 15h 42m 43s.xml">
       <configuration name="TestDynamicStack" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BalancedParanthesisCheckTest - 2019.07.10 at 06h 13m 37s.xml">
+      <configuration name="BalancedParanthesisCheckTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BalancedParanthesisCheckTest - 2019.07.10 at 15h 42m 16s.xml">
+      <configuration name="BalancedParanthesisCheckTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="3" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14498934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25135428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3488624" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51895994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,6 +467,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.09754797" />
@@ -375,49 +490,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/ds/Stacks/StackReversal.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ds/Arrays/ArrayExamples.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ds/Trees/BinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/ds/Arrays/SearchElemSortedRotated.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/ds/Stacks/GenericStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/ds/Stacks/StackUsingArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/ds/Stacks/DynamicStackUsingArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/ds/Stacks/TestArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/ds/Arrays/SearchElemSortedRotated.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/ds/Stacks/GenericStack.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/ds/Stacks/StackUsingArrays.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/ds/Stacks/DynamicStackUsingArrays.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/ds/Stacks/TestArrayStack.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Arrays/SearchElemSortedRotated.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-154">
@@ -439,9 +516,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DSA.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestDynamicStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="408">
           <caret line="24" selection-start-line="19" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -451,7 +535,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="714">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -459,28 +543,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/DynamicStackUsingArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-          <folding>
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/StackUsingArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
+        <state relative-caret-position="680">
           <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DSA.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/DynamicStackUsingArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="705">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/BalancedParanthesisCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/BalancedParanthesisCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
