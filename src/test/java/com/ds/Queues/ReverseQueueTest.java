@@ -1,12 +1,9 @@
-package com.ds.Stacks;
+package com.ds.Queues;
 
 import org.junit.Test;
 
-import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
-
-import static org.junit.Assert.*;
 
 public class ReverseQueueTest {
 

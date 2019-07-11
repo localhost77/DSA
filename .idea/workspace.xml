@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37d76171-570a-45b0-844e-36a7fecc5ff5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/LinkedLists/LinkedListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/LinkedLists/LinkedListOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Stacks/ReverseQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ds/LinkedLists/LinkedListOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ds/Stacks/ReverseQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/Arrays/SearchElemSortedRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/Arrays/SearchElemSortedRotated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/Stacks/BalancedParanthesisCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/Stacks/BalancedParanthesisCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/Stacks/ReverseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/Queues/ReverseQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ds/Stacks/ReverseQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ds/Queues/ReverseQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestArrayStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,17 +23,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/DynamicStackUsingArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+              <folding>
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestDynamicStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="238">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,11 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestArrayStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-160">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -68,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/BalancedParanthesisCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="612">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
@@ -89,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/StackUsingArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
+            <state relative-caret-position="680">
               <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
             </state>
           </provider>
@@ -108,10 +106,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/ReverseQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Queues/ReverseQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="333">
+              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/ReverseQueueTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Queues/ReverseQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,8 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ds/Stacks/GenericStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ds/Stacks/TestArrayStack.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ds/stacks/TestArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestDynamicStack.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestArrayStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ds/Stacks/DynamicStackUsingArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ds/Stacks/StackUsingArrays.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ds/Stacks/BalancedParanthesisCheckTest.java" />
@@ -200,9 +196,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ds/LinkedLists/LinkedListNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ds/LinkedLists/LinkedListOperationsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ds/LinkedLists/LinkedListOperations.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ds/Stacks/ReverseQueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ds/Stacks/ReverseQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ds/Stacks/BalancedParanthesisCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ds/Stacks/ReverseQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ds/Queues/ReverseQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestArrayStack.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestDynamicStack.java" />
       </list>
     </option>
   </component>
@@ -267,6 +266,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="Queues" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
@@ -349,6 +358,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ds.Queues" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ds.Stacks" />
     </key>
@@ -365,28 +377,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseQueueTest">
-    <configuration name="ReverseQueueTest.testReverseQueueUsingStack" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ds.Stacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ds.Stacks" />
-      <option name="MAIN_CLASS_NAME" value="com.ds.Stacks.ReverseQueueTest" />
-      <option name="METHOD_NAME" value="testReverseQueueUsingStack" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LinkedListOperationsTest">
     <configuration name="BalancedParanthesisCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.Stacks.*" />
+          <option name="PATTERN" value="com.ds.Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,12 +412,27 @@
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="com.ds.Queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ds.Queues" />
+      <option name="MAIN_CLASS_NAME" value="com.ds.Queues.ReverseQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArrayStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
           <option name="PATTERN" value="com.ds.Stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ds.Stacks" />
-      <option name="MAIN_CLASS_NAME" value="com.ds.Stacks.ReverseQueueTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ds.Stacks.TestArrayStack" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -431,7 +442,7 @@
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.Stacks.*" />
+          <option name="PATTERN" value="com.ds.Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,10 +455,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReverseQueueTest" />
-        <item itemvalue="Android JUnit.ReverseQueueTest.testReverseQueueUsingStack" />
         <item itemvalue="JUnit.LinkedListOperationsTest" />
+        <item itemvalue="JUnit.ReverseQueueTest" />
         <item itemvalue="JUnit.BalancedParanthesisCheckTest" />
+        <item itemvalue="JUnit.TestArrayStack" />
         <item itemvalue="JUnit.TestDynamicStack" />
       </list>
     </recent_temporary>
@@ -466,9 +477,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BalancedParanthesisCheckTest - 2019.07.10 at 15h 46m 24s.xml">
-      <configuration name="BalancedParanthesisCheckTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BalancedParanthesisCheckTest - 2019.07.10 at 15h 46m 36s.xml">
       <configuration name="BalancedParanthesisCheckTest" configurationId="JUnit" />
     </history-entry>
@@ -496,12 +504,15 @@
     <history-entry file="ReverseQueueTest - 2019.07.11 at 15h 34m 39s.xml">
       <configuration name="ReverseQueueTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReverseQueueTest - 2019.07.11 at 15h 50m 01s.xml">
+      <configuration name="ReverseQueueTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14498934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23134328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -510,7 +521,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3033586" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3033586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51895994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -518,7 +529,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.2936078" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -613,10 +624,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/DynamicStackUsingArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Queues/ReverseQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Queues/ReverseQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -627,27 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/ReverseQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/StackUsingArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
+        <state relative-caret-position="680">
           <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/BalancedParanthesisCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -663,28 +670,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="-160">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/BalancedParanthesisCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ds/Stacks/DynamicStackUsingArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/TestDynamicStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ds/Stacks/ReverseQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
