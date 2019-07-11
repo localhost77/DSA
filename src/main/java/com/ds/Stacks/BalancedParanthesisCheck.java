@@ -17,6 +17,9 @@ public class BalancedParanthesisCheck {
                 stack.push(str.charAt(i));
             }
 
+            // If the character is ), }, ] then pop an element from the stack
+            // and check if its matching the paranthesis with the current characters
+
             if (str.charAt(i) == ')' || str.charAt(i) == '}' || str.charAt(i) == ']') {
                 if (stack.isEmpty()) {
                     return false;
@@ -28,6 +31,9 @@ public class BalancedParanthesisCheck {
                 }
             }
         }
+
+        // If the stack is still not empty,
+        // it means there are still some operators left that were unmatched
 
         if (!stack.isEmpty()) {
             return false;
