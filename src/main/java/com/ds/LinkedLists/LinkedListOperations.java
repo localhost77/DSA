@@ -1,9 +1,5 @@
 package com.ds.LinkedLists;
 
-import sun.awt.image.ImageWatched;
-
-import javax.sound.midi.SysexMessage;
-
 public class LinkedListOperations {
 
 //    Create a class for LinkedList operations which has following subroutines or methods.
@@ -139,24 +135,55 @@ public class LinkedListOperations {
     //
     // 10 -> 3 -> 1 -> 6 -> 8 -> 9 -> NULL, n = 4
     // 1 -> 6 -> 8 -> 9 -> 10 -> 3 -> NULL
-    // 4 % 6 = 4
-
     // Move till the kth node
-    public void rotateRight(int n) {
+    // set the last node's next to the head
+    // set the head to the kth node next
+    // set the kth node next to null
+
+    public void rotateRight(int k) {
         LinkedListNode node = head, temp = head;
 
         if (node == null)
             return;
 
-        int count;
+        int size = 1;
 
         while (node.next != null) {
-            temp = node;
+            size++;
             node = node.next;
         }
 
-        if (node.next == null) {
-            node.next = null;
+        for (int i = 1 ; temp.next != null && i < (size - k) ; i++) {
+            temp = temp.next;
         }
+
+        if (temp.next != null && k < size) {
+            node.next = head;
+            head = temp.next;
+            temp.next = null;
+        }
+    }
+
+    // Find the middle of the linked list
+    // have two pointers
+    // first one that moves one node at a time
+    // second one that moves two nodes at a time
+    // When the second one reaches the end of the list
+    // then the first one must be exactly at 1/2 of the distance of the list
+    // i.e. middle of the list
+
+    public LinkedListNode findMiddleNode() {
+        LinkedListNode first = head, second = head;
+
+        if (second.next == null || second.next.next == null) {
+            return second;
+        }
+
+        while (second.next != null && second.next.next != null) {
+            first = first.next;
+            second = second.next.next;
+        }
+
+        return first;
     }
 }

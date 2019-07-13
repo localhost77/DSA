@@ -17,6 +17,7 @@ public class LinkedListOperationsTest {
         linkedListOperations.insertNodeAtBeginning(5);
 
         linkedListOperations.printLinkedList();
+        System.out.println("Middle node: " + linkedListOperations.findMiddleNode().data);
 
         linkedListOperations.insertNodeAtEnd(6);
         linkedListOperations.insertNodeAtEnd(7);
@@ -25,6 +26,7 @@ public class LinkedListOperationsTest {
         linkedListOperations.insertNodeAtEnd(10);
 
         linkedListOperations.printLinkedList();
+        System.out.println("Middle node: " + linkedListOperations.findMiddleNode().data);
 
         linkedListOperations.deleteNodeByNumber(5);
         linkedListOperations.deleteNodeByNumber(7);
@@ -32,5 +34,16 @@ public class LinkedListOperationsTest {
         linkedListOperations.deleteNodeByIndex(2);
 
         linkedListOperations.printLinkedList();
+        System.out.println("Middle node: " + linkedListOperations.findMiddleNode().data);
+
+        linkedListOperations.rotateRight(4);
+
+        linkedListOperations.printLinkedList();
+        System.out.println("Middle node: " + linkedListOperations.findMiddleNode().data);
+
+        linkedListOperations.deleteNodeByNumber(9);
+
+        linkedListOperations.printLinkedList();
+        System.out.println("Middle node: " + linkedListOperations.findMiddleNode().data);
     }
 }
