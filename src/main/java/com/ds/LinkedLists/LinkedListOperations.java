@@ -17,7 +17,7 @@ public class LinkedListOperations {
 //
 //            5. Find the middle node in a linked list.
 
-    private LinkedListNode head = null;
+    public LinkedListNode head = null;
 
     public boolean insertNodeAtBeginning(int data) {
         LinkedListNode node = new LinkedListNode(data);
@@ -123,6 +123,40 @@ public class LinkedListOperations {
         return false;
     }
 
+    public LinkedListNode getNode(int data) {
+        LinkedListNode node = head;
+
+        while (node != null) {
+            if (node.data == data) {
+                return node;
+            }
+        }
+
+        return null;
+    }
+
+    public LinkedListNode setNext(LinkedListNode node) {
+        LinkedListNode temp = head;
+
+        while (temp != null) {
+            if (temp.data == node.data) {
+                temp.next = node.next;
+                return node;
+            }
+        }
+
+        return null;
+    }
+
+    public LinkedListNode getHead() {
+
+        if (head != null) {
+            return head;
+        }
+
+        return null;
+    }
+
     // this method rotates the linked list
     // by 'n' number of times
     //
@@ -185,5 +219,39 @@ public class LinkedListOperations {
         }
 
         return first;
+    }
+
+    // Check if there is a loop in the linked list
+    //
+    //                    _________________
+    //                    |               |
+    //                    v               |
+    //   1  ->   2   ->   3   -> 4   ->   5
+    //
+    // Approach
+    //   - Have two pointers - Slow & Fast - both point to head
+    //   - Traverse the list using both pointers
+    //   - Slow pointer moves one node at a time
+    //   - Fast pointer moves two notes at a time
+    //   If at any point, the slow pointer meets the fast pointer
+    //   then there is a loop in the list.
+    //   Otherwise, if both the pointers have reached the end of the list
+    public boolean detectLoopInLinkedList() {
+        LinkedListNode slow = head, fast = head;
+        System.out.println("Slow " + slow.data + " Fast " + fast.data);
+
+        while (slow != null && fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            System.out.println("Slow " + slow.data + " Fast " + fast.data);
+
+            if (slow == fast) {
+                return true;
+            }
+        }
+
+        System.out.println("Returning false");
+        return false;
     }
 }

@@ -46,4 +46,21 @@ public class LinkedListOperationsTest {
         linkedListOperations.printLinkedList();
         System.out.println("Middle node: " + linkedListOperations.findMiddleNode().data);
     }
+
+    @Test
+    public void testDetectLoopInALinkedList() {
+        LinkedListOperations linkedListOperations = new LinkedListOperations();
+
+        linkedListOperations.insertNodeAtBeginning(1);
+        linkedListOperations.insertNodeAtBeginning(2);
+        linkedListOperations.insertNodeAtBeginning(3);
+        linkedListOperations.insertNodeAtBeginning(4);
+        linkedListOperations.insertNodeAtBeginning(5);
+
+        linkedListOperations.printLinkedList();
+        //linkedListOperations.head.next.next.next.next = linkedListOperations.head.next.next;
+
+        //linkedListOperations.printLinkedList();
+        System.out.println("Loop present: " + linkedListOperations.detectLoopInLinkedList());
+    }
 }
